@@ -8,7 +8,7 @@ public class Queue {
     int top = -1;
     int down = 0;
 
-    public static void main(String [] KelasAntrian){
+public static void main(String [] KelasAntrian){
         Queue ka = new Queue();
 
         ka.enqueue(8);
@@ -43,25 +43,24 @@ public class Queue {
     }
 
     public void view(){
-        if(!isEmpty()){
+        if(!isEmpty()) {
             System.out.print("Isi Antrian sekarang : ");
             for (int i = down; i <= top; i++) {
-                System.out.print( ar[i] + " ");
+                System.out.print(ar[i] + " ");
             }
             System.out.println("\n");
-        }else{
+        }else
             System.out.println("Antrian kosong");
-        }
+
     }
+
 
     boolean isFull(){
         if(top == ar.length){
             return true;
         }
         return false;
-    }
-
-    boolean isEmpty(){
+    }boolean isEmpty(){
         if(top == -1){
             return true;
         }
