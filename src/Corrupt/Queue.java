@@ -32,6 +32,7 @@ public class Queue {
         }
     }
 
+
     public void dequeue(){
         if(!isEmpty()){
             int indexDown = down;
@@ -40,10 +41,7 @@ public class Queue {
         }else{
             System.out.println("Antrian Kosong");
         }
-    }
-
-
-    public void view(){
+    }public void view(){
         if(!isEmpty()) {
             System.out.print("Isi Antrian sekarang : ");
             for (int i = down; i <= top; i++) {
@@ -53,7 +51,9 @@ public class Queue {
         }else
             System.out.println("Antrian kosong");
 
-    }boolean isFull(){
+    }
+
+boolean isFull(){
         if(top == ar.length){
             return true;
         }
