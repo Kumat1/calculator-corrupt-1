@@ -26,7 +26,7 @@ public class Queue {
         if(!isFull()){
             top++; // TOP DI NAIKAN
             ar[top] = angka; // ANGKA DI ISIKAN
-            System.out.println("Angka " + angka + " berhasil di enqueue");
+            System.out.println("Angka " + angka + " berhasil di Input");
         }else{
             System.out.println("Antrian penuh");
         }
@@ -36,7 +36,7 @@ public class Queue {
         if(!isEmpty()){
             int indexDown = down;
             down++; // DOWN DI NAIKAN
-            System.out.println("Antrian indek " + indexDown  + " berhasil di dequeue");
+            System.out.println("Antrian indek " + indexDown  + " berhasil di Hapus");
         }else{
             System.out.println("Antrian kosong");
         }
