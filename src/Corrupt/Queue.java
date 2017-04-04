@@ -26,9 +26,9 @@ public static void main(String [] KelasAntrian){
         if(!isFull()){
             top++; // TOP DI NAIKAN
             ar[top] = angka; // ANGKA DI ISIKAN
-            System.out.println("Angka " + angka + " berhasil di Input");
+            System.out.println("Angka " + angka + " Berhasil di Input");
         }else{
-            System.out.println("Antrian Penuh");
+            System.out.println("Antri Penuh");
         }
     }
 
@@ -36,7 +36,7 @@ public static void main(String [] KelasAntrian){
         if(!isEmpty()){
             int indexDown = down;
             down++; // DOWN DI NAIKAN
-            System.out.println("Antrian indek " + indexDown  + " berhasil di Hapus");
+            System.out.println("Antrian indek " + indexDown  + " Berhasil di Hapus");
         }else{
             System.out.println("Antrian Kosong");
         }
@@ -50,7 +50,7 @@ public static void main(String [] KelasAntrian){
             }
             System.out.println("\n");
         }else
-            System.out.println("Antrian kosong");
+            System.out.println("Antri kosong");
 
     }
 
