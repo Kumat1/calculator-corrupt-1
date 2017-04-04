@@ -36,7 +36,7 @@ public class Queue {
         if(!isEmpty()){
             int indexDown = down;
             down++; // DOWN DI NAIKAN
-            System.out.println("Antrian indek " + indexDown  + " berhasil di Hapus");
+            System.out.println("Antrian indek " + indexDown  + " berhasil di Hapu");
         }else{
             System.out.println("Antrian kosong");
         }
